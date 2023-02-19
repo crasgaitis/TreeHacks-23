@@ -13,7 +13,7 @@ function Testimonials() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Don't take our word for it</h2>
-            <p className="text-xl text-gray-400">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.</p>
+            <p className="text-xl text-gray-400">View our most helpful reviews. We've had nothing but positive feedback.</p>
           </div>
 
           {/* Testimonials */}
@@ -29,9 +29,9 @@ function Testimonials() {
                     </svg>
                         </div>
                 </div>
-                <blockquote className="text-lg text-gray-400 grow">— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I've had Open PRO for about 24 hours now and I honestly don't know how I functioned without it before.</blockquote>
+                <blockquote className="text-lg text-gray-400 grow">I never thought I could afford my own piece of land, but Pocket Plots made it possible! For just $99, I was able to purchase a beautiful plot of land that's just a short drive from the city. I love that it's off-grid, so I can build my own sustainable oasis and live off the land. Thank you Pocket Plots for making my dream a reality!</blockquote>
                 <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                  <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+                  <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="">Investment Banker</a>
                 </div>
               </div>
 
@@ -45,9 +45,9 @@ function Testimonials() {
                       </svg>
                         </div>
                   </div>
-                  <blockquote className="text-lg text-gray-400 grow">— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I've had Open PRO for about 24 hours now and I honestly don't know how I functioned without it before.</blockquote>
+                  <blockquote className="text-lg text-gray-400 grow">As someone who's always been interested in homesteading and off-grid living, I was thrilled to discover Pocket Plots. The land they offer is affordable and close to major cities, yet still far enough away to enjoy the peace and quiet of the countryside. I was able to find the perfect plot of land and start building my dream home with ease. I highly recommend Pocket Plots to anyone looking to own land and live off the grid.</blockquote>
                   <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                    <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+                    <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Professional Skier</a>
                   </div>
                 </div>
 
@@ -61,9 +61,9 @@ function Testimonials() {
                         </svg>
                         </div>
                     </div>
-                    <blockquote className="text-lg text-gray-400 grow">— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I've had Open PRO for about 24 hours now and I honestly don't know how I functioned without it before.</blockquote>
+                    <blockquote className="text-lg text-gray-400 grow">I'm so happy with my purchase from Pocket Plots! I had been searching for a plot of land for years, but everything I found was either too expensive or too remote. With Pocket Plots, I was able to find a plot of land that's both affordable and accessible. I love that I can build my own sustainable home and live off the grid, while still being close to the city. Thank you Pocket Plots for making my dreams a reality!</blockquote>
                     <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                      <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
+                      <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">Real Estate</a>
                     </div>
                   </div>
 

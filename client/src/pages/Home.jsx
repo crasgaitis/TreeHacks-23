@@ -8,7 +8,8 @@ import FeaturesZigZag from '../partials/FeaturesZigzag';
 import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
-import Card from '../partials/Card';
+import ParcelCard from '../partials/Card';
+import ParcelList from '../partials/ParcelList';
 
 function Home() {
   return (
@@ -23,15 +24,11 @@ function Home() {
         </div>
 
         {/*  Page sections */}
-        <Card 
-        imageUrl={"https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZmllbGR8ZW58MHx8MHx8&w=1000&q=80"}
-        name = "grassland"
-        />
         <HeroHome />
         <FeaturesBlocks />
         <FeaturesZigZag />
         <Testimonials />
-        <Newsletter />
+        <ParcelList />
       </main>
 
 

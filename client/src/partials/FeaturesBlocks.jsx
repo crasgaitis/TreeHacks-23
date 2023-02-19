@@ -9,7 +9,7 @@ function FeaturesBlocks() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Making land ownership accessible to all</h2>
-            <p className="text-xl text-gray-400">Minute enables an alternative form of ownership: owning through a contrct rather than a deed.</p>
+            <p className="text-xl text-gray-400">Pocket enables an alternative form of ownership: owning through a contarct rather than a deed. Instead of spending tens of thousands of dollars on large parcels of unusable land, you can get all the space you need for just $99.</p>
           </div>
 
           {/* Items */}
@@ -23,7 +23,7 @@ function FeaturesBlocks() {
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
               <h4 className="h4 mb-2">Your land is your land</h4>
-              <p className="text-lg text-gray-400 text-center">Your contract can't be voided or cancelled, and it never expires. Even if Minute isn't around in the far future, you can still maintain ownership.</p>
+              <p className="text-lg text-gray-400 text-center">Your contract can't be voided or cancelled, and it never expires. Even if Pocket isn't around in the far future, you can still maintain ownership.</p>
             </div>
 
             {/* 2nd item */}
@@ -33,8 +33,8 @@ function FeaturesBlocks() {
                 <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Fraction of the cost</h4>
+              <p className="text-lg text-gray-400 text-center">Bypass county fees, processing time, documentation fees, and more. Plus, get just the right about of space and avoid paying for an entire parcel.</p>
             </div>
 
             {/* 3rd item */}
@@ -47,8 +47,8 @@ function FeaturesBlocks() {
                   <circle className="stroke-current text-purple-100" cx="11" cy="11" r="11" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Same usage rights</h4>
+              <p className="text-lg text-gray-400 text-center">Make full use of the space in accordance with county zoning. Camp, build, invest, explore.</p>
             </div>
 
             {/* 4th item */}
@@ -60,8 +60,8 @@ function FeaturesBlocks() {
                   <circle className="stroke-current text-purple-300" cx="13" cy="9" r="3" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">None of the risk</h4>
+              <p className="text-lg text-gray-400 text-center">No due diligence necessary. Don't worry about hidden back taxes, liens, easements, or other potentially hidden dangers that come with a deed purchase.</p>
             </div>
 
             {/* 5th item */}
@@ -73,8 +73,10 @@ function FeaturesBlocks() {
                   <path className="stroke-current text-purple-300" d="M22 30h4v12h-4z" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">About the company</h4>
+              <p className="text-lg text-gray-400 text-center">Originating from our own incredible experience living on raw land in the Nevada desert. 
+
+Pocket launched in February 2023 and has already become America's fastest growing land marketplace.</p>
             </div>
 
             {/* 6th item */}
@@ -87,8 +89,8 @@ function FeaturesBlocks() {
                   <path className="stroke-current text-purple-100" d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Full cancellation policy</h4>
+              <p className="text-lg text-gray-400 text-center">Decide land ownership through Pocket isn't right for you? File for contract cancellation within 7 days and receive a full refund minus processing fees.</p>
             </div>
 
           </div>

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.9",
+    "react-scroll-fade-animation": "^0.5.4"
+  }
+}
