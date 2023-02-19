@@ -11,48 +11,6 @@ from nltk.stem import WordNetLemmatizer
 import sklearn
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-import streamlit as st
-
-# streamlit config
-
-st.set_page_config(
-    page_title="Pocket Plots",
-    page_icon='🌴 ',
-)
-
-# about
-
-st.write("## Pocket Plots")
-
-st.write("filler text here/about")
-
-# user preferences
-
-st.write("## User preferences")
-
-user_min_price, user_max_price = st.select_slider(
-    'Select your price range.',
-    options=[500, 50000],
-    value=(10000, 25000))
-
-user_min_acres, user_max_acres = st.select_slider(
-    'Select your price range.',
-    options=[0.1, 20],
-    value=(1, 2))
-
-user_input = st.text_area('Describe your ideal land plot!', '''
-    It was the best of times, it was the worst of times, it was
-    the age of wisdom, it was the age of foolishness, it was
-    the epoch of belief, it was the epoch of incredulity, it
-    was the season of Light, it was the season of Darkness, it
-    was the spring of hope, it was the winter of despair, (...)
-    ''')
-
-submit = st.button("Get land recommendations!")
-
-if submit:
-    st.write(recommend_land(user_input, user_min_price, user_max_price, user_min_acres, user_max_acres))
-
 
 # loading/cleaning
 def recommend_land(user_input, user_min_price, user_max_price, user_min_acres, user_max_acres):
