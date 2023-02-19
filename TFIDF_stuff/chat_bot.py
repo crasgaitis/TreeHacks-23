@@ -5,7 +5,7 @@ import paragraph_picker
 # load_dotenv()
 
 #openai.api_key = os.getenv('OPENAI_API_KEY')
-openai.api_key = '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'
+openai.api_key = 'bruh'
 while True:
     prompt = input("Ask me anything: ")
     info = paragraph_picker.get_information(prompt)
