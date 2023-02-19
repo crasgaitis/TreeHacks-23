@@ -5,7 +5,7 @@ import paragraph_picker
 # load_dotenv()
 
 #openai.api_key = os.getenv('OPENAI_API_KEY')
-openai.api_key = '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'
+openai.api_key = 'PLACR KEY HERE'
 
 def run_model(prompt):
     info = paragraph_picker.get_information(prompt)
@@ -13,9 +13,9 @@ def run_model(prompt):
     """ + ' ' + info + ' ' + """
     This is the question: """ + prompt
 
-    # print("-----------------")
-    # print(prompt)
-    # print("-----------------")
+    print("-----------------")
+    print(prompt)
+    print("-----------------")
     completions = openai.Completion.create(prompt=prompt, engine='text-davinci-002', max_tokens=50)
     completions = completions['choices'][0]['text'].strip()
     completions = completions.split('\n')
