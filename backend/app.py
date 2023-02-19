@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from caption_recommendation import recommend_land
+from backend.caption_recommendation import recommend_land
 from checkbook import *
 import re
 import pandas as pd
