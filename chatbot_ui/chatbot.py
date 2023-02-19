@@ -7,7 +7,7 @@ st.set_page_config(
     page_icon=":robot:"
 )
 
-API_URL = "http://127.0.0.1:105/hello"
+API_URL = "http://10.21.44.55:105/hello"
 #headers = {"Authorization": st.secrets['api_key']}
 
 # st.header("Streamlit Chat - Demo")
@@ -21,7 +21,7 @@ if 'past' not in st.session_state:
 
 def query(payload):
     
-	response = requests.get(API_URL)
+	response = requests.get(API_URL + '?arg1=' + str(payload['inputs']['text']).replace('%20', ' '))
 	return eval(response.content)
 
 def get_text():

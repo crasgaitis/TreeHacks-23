@@ -10,6 +10,7 @@ def hello_world():
     if request.method == 'POST':
         payload = request.form['payload']
         response_string = chat_bot.run_model(payload)
+        print("---------------")
         print(response_string)
         return response_string
     else:
@@ -18,12 +19,16 @@ def hello_world():
 @app.route("/hello")
 def hello():
     api_url = 'http://10.21.44.55:105'
-    response_string = chat_bot.run_model("Where can I buy land?")
+    payload = request.args.get('arg1')
+    print(payload)
+    response_string = chat_bot.run_model(payload)
     #print(response_string)
     # response = requests.post(url=api_url,
     #     data=response_string,
     #     headers={'Content-Type': 'application/json'}
     # )
+    if '<' in response_string:
+        print(response_string)
     return {"generated_text": response_string}
     #return response_string
 
