@@ -5,7 +5,7 @@ import paragraph_picker
 # load_dotenv()
 
 #openai.api_key = os.getenv('OPENAI_API_KEY')
-openai.api_key = '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'
+openai.api_key = 'PLACR KEY HERE'
 
 def run_model(prompt):
     info = paragraph_picker.get_information(prompt)
